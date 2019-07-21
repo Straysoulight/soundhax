@@ -33,7 +33,7 @@ $('#download').on('click', function() {
   var console_ = $('.console').children('.selected').attr('id');
   var firmware_ = $('.firmware').children('.selected').attr('id');
 
-  var base = "https://github.com/nedwill/soundhax/raw/master/";
+  var base = "https://github.com/straysoulight/soundhax/raw/master/";
   if(console_ == 'n3ds')
      var filename = "soundhax-{0}-{1}.m4a".format(region, console_);
   else
