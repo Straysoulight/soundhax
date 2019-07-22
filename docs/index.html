@@ -5,8 +5,8 @@
   <meta charset="utf-8">
 
   <title>SoundHax | Nintendo Hacking 2016</title>
-  <meta name="description" content="Soundhax - Free Nintendo 3DS Homebrew Primary Entrypoint">
-  <meta name="Lois" content="A designer who codes for fun.">
+  <meta name="description" content="Soundhax - 完全免费的任天堂 3DS Homebrew 启动入口">
+  <meta name="Lois" content="一个有趣的设计师。">
   <link rel="icon"
       type="img/logo"
       href="img/Logo.png">
@@ -36,23 +36,31 @@
       <button class="group" id="kor">KOR</button>
     </div>
     <div class="btn-group console">
-      <p>Choose a console:</p>
-      <button class="group" id="n3ds">New 3DS | New 3DS XL</button>
-      <button class="group" id="o3ds">Old 3DS | Old 3DS XL | 2DS</button>
+      <p>选择主机版本 :</p>
+      <button class="group" id="n3ds">New 3DS | New 3DS XL/LL</button>
+      <button class="group" id="o3ds">Old 3DS | Old 3DS XL/LL | 2DS</button>
     </div>
 	<div class="btn-group firmware">
-	  <p>Choose firmware:</p>
+	  <p>选择系统版本 :</p>
 	  <button class="group" id="pre5.0">3.X - 4.X</button>
 	  <button class="group" id="post5.0">5.X - 11.2</button>
     </div>
-    <button id="download" class="round" href="poop">Download M4A</button>
+    <button id="download" class="round" href="poop">下载 M4A</button>
 
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" id="form1">
     <input type="hidden" name="cmd" value="_s-xclick" />
     <input type="hidden" name="hosted_button_id" value="6JJ8B2DMB9GUE" />
     </form>
+	
+	<form action="https://www.yzhhsdreamisland.cn" method="post" target="_top" id="formy">
+    <input type="hidden" name="cmd" value="_s-xclick" />
+    <input type="hidden" name="hosted_button_id" value="donate" />
+    </form>
 
-    <button type="submit" form="form1" value="DONATE" class="round donate">Donate</button>
+    <button type="submit" form="form1" value="DONATE" class="round donate">Donate(原作者)</button>
+  </def>
+	
+	<button type="submit" form="form1" value="DONATE" class="round donate">Donate(一只火狐)</button>
   </def>
 
   <def class="graphics">
@@ -60,14 +68,7 @@
   </def>
   <script src="js/jquery-3.1.1.min.js"></script>
   <script src="js/scripts.js"></script>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-89595372-1', 'auto');
-    ga('send', 'pageview');
 
   </script>
 </body>
