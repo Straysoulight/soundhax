@@ -52,7 +52,7 @@ $('#download').on('click', function() {
   var console_ = $('.console').children('.selected').attr('id');
   var firmware_ = $('.firmware').children('.selected').attr('id');
 
-  var base = "https://oasisakari.wd-ljt.com/wp-content/uploads/";
+  var base = "https://oasisakari.wd-ljt.com/soundhax/";
   if(console_ == 'n3ds')
     var filename = "soundhax-{0}-{1}.m4a".format(region, console_);
   else
