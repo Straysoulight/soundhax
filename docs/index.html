@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
 
-  <title>SoundHax | Nintendo Hacking 2016</title>
-  <meta name="description" content="Soundhax - 完全免费的任天堂 3DS Homebrew 启动入口">
-  <meta name="Lois" content="一个有趣的设计师。">
+  <title>SoundHax | Nintendo Hacking 2016-2020</title>
+  <meta name="description" content="Soundhax - Free Nintendo 3DS Homebrew Primary Entrypoint">
+  <meta name="Lois" content="A designer who codes for fun.">
   <link rel="icon"
       type="img/logo"
       href="img/Logo.png">
@@ -29,21 +29,25 @@
 
   <def class="downloads">
     <div class="btn-group region">
-      <p>选择区域版本 :</p>
-      <button class="group" id="usa">美版(U)</button>
-      <button class="group" id="eur">欧版(E)</button>
-      <button class="group" id="jpn">日版(J)</button>
-      <button class="group" id="kor">韩版(K)</button>
+      <p>Choose a region:</p>
+      <button class="group" id="usa">美版（USA）</button>
+      <button class="group" id="eur">欧版（EUR）</button>
+      <button class="group" id="jpn">日版（JPN）</button>
+      <button class="group kct" id="kor">韩版（KOR）</button>
+      <button class="group kct no_n3ds" id="chn">神游（CHN）</button>
+      <button class="group kct no_n3ds" id="twn">港/台版（TWN）</button>
     </div>
     <div class="btn-group console">
-      <p>选择主机版本 :</p>
-      <button class="group" id="n3ds">New 3DS | New 3DS XL/LL</button>
-      <button class="group" id="o3ds">Old 3DS | Old 3DS XL/LL | 2DS</button>
+      <p>选择主机型号：</p>
+      <button class="group" id="n3ds">New 3DS | New 3DS XL | New 2DS XL</button>
+      <button class="group" id="o3ds">旧版 3DS | 旧版 3DS XL | 旧版 2DS</button>
     </div>
-	<div class="btn-group firmware">
-	  <p>选择系统版本 :</p>
-	  <button class="group" id="pre5.0">3.X - 4.X</button>
-	  <button class="group" id="post5.0">5.X - 11.2</button>
+    <div class="btn-group firmware">
+      <p>选择固件版本：</p>
+      <button class="group no_n3ds no_kct" id="pre2.1">1.X - 2.1</button>
+      <button class="group no_n3ds no_kct" id="v2.1and2.2">2.1 - 2.2</button>
+      <button class="group no_n3ds" id="v3.xand4.x">3.X - 4.X</button>
+      <button class="group" id="post5.0">5.X - 11.3</button>
     </div>
     <button id="download" class="round" href="poop">下载 M4A</button>
 
@@ -51,26 +55,20 @@
     <input type="hidden" name="cmd" value="_s-xclick" />
     <input type="hidden" name="hosted_button_id" value="6JJ8B2DMB9GUE" />
     </form>
-	
-	<form action="https://www.yzhhsdreamisland.cn/index.php/donate" method="post" target="_top" id="formy">
+
+    <form action="https://stray-soul.com/index.php/donate" method="post" target="_top" id="formy">
     </form>
 
-    <button type="submit" form="form1" value="DONATE" class="round donate">捐赠<br/>(原作者)</button>
-  </def>
-	
-	<button type="submit" form="formy" value="DONATE" class="round donate">捐赠<br/>(一只火狐)</button>
+    <button type="submit" form="form1" value="DONATE" class="round donate">捐赠（原作者）</button>
+    <button type="submit" form="formy" value="DONATE" class="round donate">捐赠<br/>(一只火狐)</button>
   </def>
 
-<p>请进入系统设置，查看右上角的系统版本号的最后一位字符来区分区域版本。</p>
-<p>若系统版本为8.1.0以下，除非先前通过其他方法降级不可能是New 3DS。</p>
-
+  <p>请进入系统设置，查看右上角的系统版本号的最后一位字符来区分区域版本。</p>
+  <p>若系统版本为8.1.0以下，除非先前通过其他方法降级不可能是New 3DS。</p>
   <def class="graphics">
     <img src="img/BottomGraphics.png" alt="bottom graphics">
   </def>
   <script src="js/jquery-3.1.1.min.js"></script>
   <script src="js/scripts.js"></script>
-
-
-  </script>
 </body>
 </html>
